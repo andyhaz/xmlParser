@@ -14,6 +14,7 @@
 		978854601C41E1CC004A5ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9788545E1C41E1CC004A5ED5 /* Main.storyboard */; };
 		9788546B1C41E1CC004A5ED5 /* parseXML_StringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9788546A1C41E1CC004A5ED5 /* parseXML_StringTests.m */; };
 		978854761C41E1CC004A5ED5 /* parseXML_StringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 978854751C41E1CC004A5ED5 /* parseXML_StringUITests.m */; };
+		978854851C423B4E004A5ED5 /* XMLphares.m in Sources */ = {isa = PBXBuildFile; fileRef = 978854841C423B4E004A5ED5 /* XMLphares.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		978854711C41E1CC004A5ED5 /* parseXML_StringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parseXML_StringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		978854751C41E1CC004A5ED5 /* parseXML_StringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = parseXML_StringUITests.m; sourceTree = "<group>"; };
 		978854771C41E1CC004A5ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		978854831C423B4E004A5ED5 /* XMLphares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLphares.h; sourceTree = "<group>"; };
+		978854841C423B4E004A5ED5 /* XMLphares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLphares.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				978854541C41E1CC004A5ED5 /* AppDelegate.m */,
 				978854591C41E1CC004A5ED5 /* ViewController.h */,
 				9788545A1C41E1CC004A5ED5 /* ViewController.m */,
+				978854831C423B4E004A5ED5 /* XMLphares.h */,
+				978854841C423B4E004A5ED5 /* XMLphares.m */,
 				9788545C1C41E1CC004A5ED5 /* Assets.xcassets */,
 				9788545E1C41E1CC004A5ED5 /* Main.storyboard */,
 				978854611C41E1CC004A5ED5 /* Info.plist */,
@@ -268,6 +273,7 @@
 			files = (
 				9788545B1C41E1CC004A5ED5 /* ViewController.m in Sources */,
 				978854581C41E1CC004A5ED5 /* main.m in Sources */,
+				978854851C423B4E004A5ED5 /* XMLphares.m in Sources */,
 				978854551C41E1CC004A5ED5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +495,7 @@
 				9788547C1C41E1CC004A5ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9788547D1C41E1CC004A5ED5 /* Build configuration list for PBXNativeTarget "parseXML_StringTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +504,7 @@
 				9788547F1C41E1CC004A5ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		978854801C41E1CC004A5ED5 /* Build configuration list for PBXNativeTarget "parseXML_StringUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +513,7 @@
 				978854821C41E1CC004A5ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
